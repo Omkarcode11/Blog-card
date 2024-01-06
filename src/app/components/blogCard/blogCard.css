@@ -1,0 +1,68 @@
+.card-container{
+  
+    background-color: white;
+    width: 20rem;
+    height: 28rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    box-shadow: black 0.6rem 0.6rem ;
+}
+
+.card-innerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    height: 100%;
+}
+
+.card-innerContainer>div{
+    margin: 0.5rem 0rem;
+}
+
+.card-image{
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.card-badge{
+    background-color: #f4d04e;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.6rem;
+    font-weight: 800;
+    border-radius: 0.3rem;
+
+}
+.card-postAt{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.card-description{
+    text-align: start;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+.card-user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-user-name{
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin: 0rem 0.5rem;
+}
+
+.card-user-image{
+    border-radius: 50%;
+}
