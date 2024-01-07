@@ -1,13 +1,22 @@
-import Image from 'next/image'
-import cardImg from './../../public/image.svg'
-
-import styles from './page.module.css'
-import BlogCard from './components/blogCard/BlogCard'
+import styles from "./page.module.css";
+import BlogCard from "./components/blogCard/BlogCard";
+import { cards } from "./utils/cardsInfo";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <BlogCard/>
+      {cards
+        ? cards.map((ele) => (
+            <BlogCard
+              user={ele.user}
+              title={ele.title}
+              badge={ele.badge[0]}
+              description={ele.description}
+              postAt={ele.postAt}
+              img={ele.img}
+            />
+          ))
+        : ""}
     </main>
-  )
+  );
 }

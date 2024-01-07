@@ -15,4 +15,6 @@ bun dev
 
 
 
-# 
+# This is a Dynamic cards you can add more cards by adding more object inside the this file src\app\utils\cardsInfo.js try it  
+
+

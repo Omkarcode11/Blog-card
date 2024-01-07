@@ -1,8 +1,9 @@
 .main{
      display: flex;
+     flex-flow: row wrap;
      justify-content: center;
      align-items: center;
-     background-color: #f4d04e;
      text-align: center;
      height: 100vh;
 }
+

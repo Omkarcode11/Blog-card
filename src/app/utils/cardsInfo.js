@@ -1,12 +1,14 @@
 export const cards = [
     {
-     title: '',
-     badge : [],
-     description : '',
+        img: '/public/image.svg',
+        title: 'HTML & CSS foundations',
+        badge: ['Learning'],
+        description: 'These languages are the backbone of every website,defining structure,content and presentation',
 
-     //fist one is image path and second one is name of the person 
-     user:[],
-     postAt : ""
+        user: ['/public/avatar.webp', 'Gerg Hooper'],
+        postAt: "Published 21 Dec 2023"
 
-    }
+    },
+    
+
 ]
