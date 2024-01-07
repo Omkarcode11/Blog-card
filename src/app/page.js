@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       {cards
-        ? cards.map((ele) => (
+        ? cards.map((ele,i) => (
             <BlogCard
+            key={i}
               user={ele.user}
               title={ele.title}
               badge={ele.badge[0]}
